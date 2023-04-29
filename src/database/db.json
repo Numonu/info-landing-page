@@ -77,6 +77,45 @@
 					]
 				}
 			]
+		},
+		{
+			"image": "https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_1280.jpg",
+			"header": {
+				"title": "parque fluvial rimac",
+				"subtitle": "concurso lanzamiento",
+				"extraTop": "lima",
+				"extraBottom": "2017"
+			},
+			"content": {
+				"title": "asunto",
+				"subtitle": "estudiantes y jovenes profesionales",
+				"description": [
+					"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum veniam facere sunt eaque molestias in corrupti voluptatum natus eius sint veniam facere sunt eaque molestias in corrupti"
+				]
+			},
+			"info": [
+				{
+					"title": "premios",
+					"items": [
+						["1 Primer puesto", "S/1200.00"],
+						["2 Segundo puesto", "S/800.00"]
+					]
+				},
+				{
+					"title": "jurado",
+					"items": [
+						["Angus Leo", "llama"],
+						["Jose Rojas", "marca feliz"]
+					]
+				},
+				{
+					"title": "cronograma",
+					"items": [
+						["inscripcion", "01 oct - 20 nov"],
+						["resultados", "01 en - 16 en"]
+					]
+				}
+			]
 		}
 	]
 }

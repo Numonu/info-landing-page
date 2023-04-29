@@ -8,8 +8,8 @@ export function SectionContent() {
 
 	return (
 		<main className="flex flex-col gap-4 transition-colors duration-200 xl:hover:bg-zinc-700 xl:p-2">
-			<div className="h-[20rem] bg-cover lg:h-[38rem] bg-fixed lg:bg-scroll" style={custom}></div>
-			<h1 className="text-amber-500 text-3xl font-normal uppercase">
+			<div className="hidden h-[20rem] bg-cover lg:h-[38rem] bg-fixed lg:block lg:bg-scroll" style={custom}></div>
+			<h1 className="text-main text-3xl font-normal uppercase">
 				{data.content.title}
 			</h1>
 			<h2 className="text-2xl uppercase">{data.content.subtitle}</h2>

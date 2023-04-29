@@ -1,4 +1,5 @@
-import { BsFacebook , BsInstagram , BsLinkedin} from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { Link } from "../components/Link";
 export function Footer() {
 	return (
 		<div className="bg-zinc-950 py-4 pt-12 grid grid-cols-2 justify-items-center lg:grid-cols-3 xl:grid-cols-4">
@@ -8,25 +9,47 @@ export function Footer() {
 			</div>
 			<div>
 				<ul className="capitalize font-medium">
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Experience</a></li>
-					<li><a href="#">Team</a></li>
-					<li><a href="#">About</a></li>
+					<li>
+						<Link>services</Link>
+					</li>
+					<li>
+						<Link>experience</Link>
+					</li>
+					<li>
+						<Link>team</Link>
+					</li>
+					<li>
+						<Link>about</Link>
+					</li>
 				</ul>
 			</div>
-            <div>
-                <ul className="capitalize font-medium">
-					<li><a href="#">Team</a></li>
-					<li><a href="#">Experience</a></li>
-					<li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
+			<div>
+				<ul className="capitalize font-medium">
+					<li>
+						<Link>experience</Link>
+					</li>
+					<li>
+						<Link>team</Link>
+					</li>
+					<li>
+						<Link>about</Link>
+					</li>
+					<li>
+						<Link>services</Link>
+					</li>
 				</ul>
 			</div>
-            <div className="flex items-center flex-wrap gap-4 text-2xl">
-                <BsFacebook/>
-                <BsInstagram/>
-                <BsLinkedin/>
-            </div>
+			<div className="flex items-center flex-wrap gap-4 text-2xl">
+				<Link>
+					<BsFacebook />
+				</Link>
+				<Link>
+					<BsInstagram />
+				</Link>
+				<Link>
+					<BsLinkedin />
+				</Link>
+			</div>
 		</div>
 	);
 }

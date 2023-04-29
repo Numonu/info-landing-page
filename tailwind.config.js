@@ -10,8 +10,11 @@ export default {
         xs : "320px"
       },
       colors : {
-        main : ""
+        main : "#F59E0B"
       },
+      fontFamily : {
+        "bruno" : "Bruno Ace SC"
+      }
     },
   },
   plugins: [],

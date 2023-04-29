@@ -6,12 +6,12 @@ export function SectionInfo() {
 	const custom = { backgroundImage: `url(${data.image})` };
 
 	return (
-		<main className={`flex flex-col gap-4 transition-colors duration-200 xl:hover:bg-zinc-700 xl:p-2`}>
-			<div className="h-[20rem] bg-cover bg-fixed lg:bg-scroll" style={custom}></div>
+		<main className="flex flex-col gap-4 transition-colors duration-200 xl:hover:bg-zinc-700 xl:p-2">
+			<div className="hidden h-[20rem] bg-cover bg-fixed lg:block lg:bg-scroll" style={custom}></div>
 			<ul className="flex flex-col gap-6">
 				{data.info.map((e) => (
 					<li>
-						<h1 className="text-amber-500 text-2xl uppercase mb-2">
+						<h1 className="text-main text-2xl uppercase mb-2">
 							+ {e.title}
 						</h1>
 						<ul className="flex flex-col gap-2">
